@@ -10,6 +10,7 @@ export default function NotFound() {
         <Card.Section>
           <EmptyState heading={t("NotFound.heading")} image={notFoundImage}>
             <p>{t("NotFound.description")}</p>
+            <p>back to the app</p>
           </EmptyState>
         </Card.Section>
       </Card>
